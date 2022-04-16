@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:wght@200;300;500;600&display=swap');
+
+* {
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    background: #141519;
+
+}
+
+.container {
+    color: rgb(255 255 255);
+    background: rgb(33 40 50);
+    margin: 150px 475px;
+    padding: 30px 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+#para2{
+    border: 1px solid red;
+    /* width: 20px; */
+    border-radius: 10px;
+    padding: 1px 1px;
+    margin: 1px 1px;
+    background: rgb(52 58 66);
+    color: rgb(251 116 19);
+}
+
+.logo {
+    background: rgb(52 58 66);
+    display: inline-block;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 30px;
+}
+
+
+.container p {
+    margin-top: 10px;
+    color: hsl(216, 12%, 54%)
+}
+
+.num-container {
+    margin: 40px -15px;
+}
+
+.box {
+    padding: 1rem;
+    background: rgb(52 58 66);
+    border-radius: 50%;
+    margin: 0px 15px;
+   
+}
+
+.btn {
+    background: rgb(251 116 19);
+    margin: 0px 5px;
+    padding:1rem 1rem;
+    border-radius: 2rem;
+    width: 95%;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.box:hover:active{
+    background: rgb(251 116 19);
+    cursor: pointer;
+}
+
+.btn:active{
+    background: white;
+    color:rgb(251 116 19);
+}
+
+
+ @media only screen and (max-width:1440px) {
+    .container{
+         width:350px;
+    }
+} 
+
+@media only screen and (max-width:375px) {
+    .container{
+        width: 265px;
+        margin: 90px auto;
+    }
+    .box{
+        width: 10px;
+    }
+}
